@@ -16,5 +16,28 @@ Multimodal machine learning dedicates to designing a strong model for understand
 Different from the previous paradigm, the main idea of DiCMoR is to transfer the distribution from available modalities to missing ones through the nice properties of normalizing flow (i.e., invertibility and exact density estimation), and generate more confident prediction with high distribution consistency.
 
 ![](main_idea.png)
+
 Available modality $\mathbf{X}_{\text{avail}}$ is first projected into a latent state $\mathbf{Z}$ by the forward flow function of $\mathcal{F}\_{\text{avail}}$. Then, the latent state $\mathbf{Z}$ is injected into the reverse flow function of $\mathcal{F}\_{\text{miss}}$ and transferred to the missing modality $\mathbf{X}\_{\text{miss}}$ abided by its original distribution.
+
+## The Framework.
+
+![](figure2.png)
+
+The framework of DMD. Please refer to our paper for details.
+
+## Usage
+
+### Prerequisites
+- Python 3.8
+- PyTorch 1.9.0
+- CUDA 11.4
+
+### Datasets
+Data files (containing processed MOSI, MOSEI datasets) can be downloaded from . 
+You can put the downloaded datasets into `./dataset` directory.
+Please note that the meta information and the raw data are not available due to privacy of Youtube content creators. For more details, please follow the [official website](https://github.com/A2Zadeh/CMU-MultimodalSDK) of these datasets.
+
+### Run the Codes
+
+Coming soon.
 
