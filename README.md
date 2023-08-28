@@ -11,7 +11,7 @@ We propose a distribution-consistent modal recovering (DiCMoR) method to preserv
 ## The motivation.
 Multimodal machine learning dedicates to designing a strong model for understanding, reasoning, and learning by fusing multimodal data, such as language, acoustic, and image. However, in real-world scenarios, the well-trained model may be deployed when certain modalities are not available, e.g., language may be unavailable due to speech recognition errors; acoustic modality may be lost due to background noise or sensor sensing limitations; visual data may be unavailable due to lighting, occlusion, or social privacy security. In practice, the problem of missing modality inevitably degrades the multimodal understanding performance.
 
-## The main idea of DiCMoR
+## The main idea of DiCMoR.
 
 Different from the previous paradigm, the main idea of DiCMoR is to transfer the distribution from available modalities to missing ones through the nice properties of normalizing flow (i.e., invertibility and exact density estimation), and generate more confident prediction with high distribution consistency.
 
