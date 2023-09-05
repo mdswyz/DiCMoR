@@ -23,7 +23,7 @@ Available modality $\mathbf{X}_{\text{avail}}$ is first projected into a latent 
 
 ![](figure2.png)
 
-The framework of DMD. Please refer to our paper for details.
+The framework of DiCMoR. Please refer to our paper for details.
 
 ## Usage
 
@@ -33,11 +33,27 @@ The framework of DMD. Please refer to our paper for details.
 - CUDA 11.4
 
 ### Datasets
-Data files (containing processed MOSI, MOSEI datasets) can be downloaded from . 
-You can put the downloaded datasets into `./dataset` directory.
-Please note that the meta information and the raw data are not available due to privacy of Youtube content creators. For more details, please follow the [official website](https://github.com/A2Zadeh/CMU-MultimodalSDK) of these datasets.
+Data files can be downloaded from [here](https://drive.google.com/drive/folders/1BBadVSptOe4h8TWchkhWZRLJw8YG_aEi), and you only need to download the aligned data. 
+You can put the downloaded datasets into `dataset/` directory.
+
+### Pretrained weights
+Before running missing cases, you should [download](https://drive.google.com/drive/folders/1RatqmN6W7yagq195d8WWdN_TK0ctt2pI?usp=drive_link) the weights pretrained by complete multimodal data (i.e., MR=0.0).
+You can put the downloaded weights into `pt/` directory.
 
 ### Run the Codes
+Running the following command:
+```
+python train.py
+```
 
-Coming soon.
+### Citation
+If you find the code helpful in your resarch or work, please cite the following paper.
+```
+@InProceedings{Wang_2023_ICCV,
+    author    = {Wang, Yuanzhi and Cui, Zhen and Li, Yong},
+    title     = {Distribution-Consistent Modal Recovering for Incomplete Multimodal Learning},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    year      = {2023}
+}
+```
 
