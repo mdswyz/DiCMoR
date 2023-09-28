@@ -53,7 +53,9 @@ If you find the code helpful in your resarch or work, please cite the following 
     author    = {Wang, Yuanzhi and Cui, Zhen and Li, Yong},
     title     = {Distribution-Consistent Modal Recovering for Incomplete Multimodal Learning},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    year      = {2023}
+    month     = {October},
+    year      = {2023},
+    pages     = {22025-22034}
 }
 ```
 
