@@ -1,4 +1,4 @@
-# [Distribution-Consistent Modal Recovering for Incomplete Multimodal Learning, ICCV 2023.](https://drive.google.com/file/d/18__rBYfeyOWis0oG3W8gaGRZwPzKJE5w/view?usp=sharing)
+# [Distribution-Consistent Modal Recovering for Incomplete Multimodal Learning, ICCV 2023.](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Distribution-Consistent_Modal_Recovering_for_Incomplete_Multimodal_Learning_ICCV_2023_paper.html)
 
 ![](https://img.shields.io/badge/Platform-PyTorch-blue)
 ![](https://img.shields.io/badge/Language-Python-{green}.svg)
@@ -23,7 +23,7 @@ Available modality $\mathbf{X}_{\text{avail}}$ is first projected into a latent 
 
 ![](figure2.png)
 
-The framework of DiCMoR. Please refer to our [paper](https://drive.google.com/file/d/18__rBYfeyOWis0oG3W8gaGRZwPzKJE5w/view?usp=sharing) for details.
+The framework of DiCMoR. Please refer to our [paper](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Distribution-Consistent_Modal_Recovering_for_Incomplete_Multimodal_Learning_ICCV_2023_paper.html) for details.
 
 ## Usage
 
